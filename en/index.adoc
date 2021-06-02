@@ -1,14 +1,21 @@
-# Table of Contents
+= Table of Contents
 
 This document contains the section and subsection headers for Rocky Linux documentation, as well as links to articles in each section/subsection.
 
 The order of these sections is very important, but has not been finalized yet, so feel free to reorder as desired.
 
-## OS Installation and Setup
-| Classic Rocky Installation | Rocky on Windows SubSystem For Linux (WSL) |
-| --- |  --- | 
-| [Rocky 8 Installation](guides/rocky-8-installation.md) | [Rocky & WSL (rinse method)](guides/rocky_to_wsl_howto.md) |
-| | [Rocky & WSL2 (virtualbox and docker)](guides/import_rocky_to_wsl_howto.md) |
+== OS Installation and Setup
+
+[cols="1,1"]
+|===
+|Classic Rocky Installation
+|Rocky on Windows SubSystem For Linux (WSL)
+
+|Rocky 8 Installation[guides/rocky-8-installation.md]
+|Rocky & WSL (rinse method)[guides/rocky_to_wsl_howto.md]
+
+|Rocky & WSL2 (virtualbox and docker)[guides/import_rocky_to_wsl_howto.md]
+|===
 
 ## Development and Packaging
 

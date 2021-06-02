@@ -1,16 +1,12 @@
----
-title: Adding a public mirror to Rocky's mirror manager
----
-
-# Adding a public mirror to Rocky's mirror manager
+= Adding a public mirror to Rocky's mirror manager
 
 Rocky uses Fedora's Mirror Manager for organizing community mirrors.
 
-## What You Need
+== What You Need
 * An account on https://accounts.rockylinux.org/
 
 
-## Creating a site
+== Creating a site
 
 Access Rocky's Mirror Manager here: https://mirrors.rockylinux.org/mirrormanager/
 
@@ -29,7 +25,7 @@ A new page will load with an important Export Compliance statement to read. Then
 
 Upon clicking "Submit" you will be returned to the main mirror page.
 
-## Configuring the site
+== Configuring the site
 
 From the main mirror page, select the drop down then click "My sites".
 
@@ -37,7 +33,7 @@ The account site page will load and the site should be listed. Click it to go to
 
 All of the options from the last section are listed again. At the bottom of the page are three new options: Admins, Hosts, and Delete site. Click on the "Hosts [add]".
 
-## Create new host
+== Create new host
 
 Fill out the following options that are appropriate for the site:
 * "Host name" - required: FQDN of server as seen by a public end user
@@ -55,7 +51,7 @@ Fill out the following options that are appropriate for the site:
 
 Click "Create" and it will redirect back to the Information site for the host.
 
-## Update host
+== Update host
 
 At the bottom of the Information site, the option for "Hosts" should now display the host title next to it. Click on the name to load the host page. All of the same options from the previous step are listed again. There are new options at the bottom.
 
@@ -69,7 +65,7 @@ At the bottom of the Information site, the option for "Hosts" should now display
 
 Click on the "[add]" link under "Categories Carried".
 
-### Categories Carried
+=== Categories Carried
 
 For the Category, select "Rocky Linux" then "Create" to load the URL page. Then click "[add]" to load the "Add host category URL" page. There is one option. Repeat as needed for each of the mirrors supported protocols.
 
@@ -81,7 +77,7 @@ Examples:
 * `rsync://rocky.example.com`
 
 
-## Wrap up
+== Wrap up
 
 Once the information is filled out, the site should appear on the mirror list as soon as the next mirror refresh occurs.
 
